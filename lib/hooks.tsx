@@ -11,14 +11,14 @@ import {
 
 export const useRaychat = ({ url, id }: UseRaychatProps) => {
   const [isTokenAvailable] = useState<string | undefined>(
-    process.env.REACT_APP_RAYCHAT_TOKEN
+    process.env.RAYCHAT_TOKEN
   );
   const [raychatReady, setRaychatReady] = useState<boolean>(false);
   const [currentRaychatUserId, setCurrentRaychatUserId] = useState<string>("");
 
   const addRaychatScript = (): void => {
     if (isTokenAvailable) {
-      window.RAYCHAT_TOKEN = process.env.REACT_APP_RAYCHAT_TOKEN as string;
+      window.RAYCHAT_TOKEN = process.env.RAYCHAT_TOKEN as string;
       const script = document.createElement("script");
 
       script.id = id;
