@@ -4,7 +4,7 @@ This is a next.js project bootstraped with [Create Next App](https://github.com/
 
 ## Developer
 
-[@mehdifaraji](https://www.linkedin.com/in/mehdifaraji/) [Linkedin post](https://www.linkedin.com/in/mehdifaraji/)
+[@mehdifaraji](https://www.linkedin.com/in/mehdifaraji/) [Linkedin post](https://www.linkedin.com/posts/mehdifaraji_react-reactjs-next-activity-7184444037922230273-3H7v?utm_source=share&utm_medium=member_desktop)
 
 ## Raychat
 
