@@ -6,7 +6,14 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#790069",
+      },
+      fontFamily: {
+        iranyekan: ["iranyekan", "-apple-system"],
+      },
+    },
   },
   plugins: [],
 };
