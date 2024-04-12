@@ -44,7 +44,7 @@ const Homepage: FC = () => {
           <Title>
             موضوع پروژه
             <Link
-              url="https://github.com/1mehdifaraji/react-raychat"
+              url="https://github.com/1mehdifaraji/next-raychat"
               title="GitHub source"
               className="!mr-2"
             />
