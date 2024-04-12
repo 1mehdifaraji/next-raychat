@@ -1,4 +1,5 @@
 import { FC, useEffect, useState } from "react";
+import Head from "next/head";
 
 import { useRaychat, clearLocalstorage } from "@/lib";
 import {
@@ -35,6 +36,9 @@ const Homepage: FC = () => {
 
   return (
     <Container>
+      <Head>
+        <title>Raychat + Next.js</title>
+      </Head>
       <Card title="Raychat + Next.js">
         <Content>
           <Title>
